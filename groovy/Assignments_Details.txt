@@ -1,0 +1,3 @@
+Assignment_1 -> convert json data into comma separeated value (should not use any inbuilt function)
+Assignment_2 -> Make a shared library for build any project using (gradle or maven)
+Assignment_3 -> write a script to validate the pull request and merge it into master in Git Hub
