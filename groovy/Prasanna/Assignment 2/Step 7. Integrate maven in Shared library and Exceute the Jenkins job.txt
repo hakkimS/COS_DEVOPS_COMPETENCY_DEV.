@@ -1,0 +1,9 @@
+Integrate the maven project in Shared library
+---------------------------------------------
+
+Step 1: Create the sample repo for Shared library
+
+Step 2: Add the JenkinsFile and call the maven project. (refer sample jenkinsfile)
+
+Step 3: Create the shared library job in Jenkins and Exceute the job.
+

@@ -1,0 +1,21 @@
+Prerequisties 
+--------------
+Please create repository for maven project. Here it is named as "maven-demo"
+While creating add .gitignore file with respect to java
+
+
+
+Please proceed below commands in Terminal
+------------------------------------------
+
+git clone git@git.elektrobitautomotive.com:yourCOMPID/maven-demo.git newtemp
+cp -a newtemp/. Maven-demo/
+rm -rf temp
+cd maven-demo/
+git status
+git add -A
+git status
+git commit -m "initial project setup"
+git push origin master
+git push
+git status

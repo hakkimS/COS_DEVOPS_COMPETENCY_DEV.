@@ -1,0 +1,8 @@
+Create a sample maven project using following command
+
+mvn archetype:generate -DgroupId=com.demomaven.app -DartifactId=maven-demo -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+
+To build maven project using command
+
+mvn package
