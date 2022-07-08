@@ -1,0 +1,14 @@
+java -version
+echo $JAVA_HOME
+cd /usr/lib/jvm
+cd java-8-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+echo $JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+sudo vi /etc/environment
+
+Add below line at the end in enviroment file
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+
+source /etc/environment
+echo $JAVA_HOME
