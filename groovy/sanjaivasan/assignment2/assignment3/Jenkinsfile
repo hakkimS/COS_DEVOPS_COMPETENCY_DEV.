@@ -1,0 +1,4 @@
+#!/usr/bin/env groovy
+
+@Library('Shared-library-demo')_
+maven_java 'link your maven repo url'
