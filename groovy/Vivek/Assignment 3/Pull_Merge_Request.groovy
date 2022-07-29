@@ -16,7 +16,6 @@ data.each { it ->
         println merge.id + " is mergeable"
         mergeable_url = merge.url + "/merge"
         ["curl", "-X", "PUT", "-H", "'Accept: application/vnd.github.v3+json'", "-u", "vila274183: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", "${mergeable_url}"].execute()
-
     }
     else {
         println "for id:" + merge.id + " mergeable_state is " + merge.mergeable_state
